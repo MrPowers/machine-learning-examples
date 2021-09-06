@@ -6,7 +6,17 @@ Goal is to make all examples easily reproducible on your machine with clear cond
 
 Notebooks should also be heavily annotated with text to provide context.
 
+## Usage
+
+You should use the conda `ml-examples` environment for all examples in this repo, unless otherwise noted.
+
+Create the environment with this command: `conda create -f envs/ml-examples.yml`.
+
+Activate the environment with `conda activate ml-examples`.
+
+Open up the notebooks with `jupyter lab`.
+
 ## K Nearest Neighbors
 
-Environment: `ml-examples`
-
+* [Iris dataset](https://github.com/MrPowers/machine-learning-examples/blob/main/notebooks/knn-iris.ipynb)
+* [Forge dataset](https://github.com/MrPowers/machine-learning-examples/blob/main/notebooks/knn-forge.ipynb)
